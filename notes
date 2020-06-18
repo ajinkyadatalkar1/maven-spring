@@ -28,4 +28,8 @@ letter. Like "VegetableSalad" used in this example.
 While calling a bean always remember to make the first letter of component class (even if its capital)
 small.
 --------------------------------------------------------------------------------------------------------
-The Sauce.java file is an example of setting values to the variables with the help of beans.
+The Sauce.java file is an example of setting values of the variables with the help of beans using
+property.
+--------------------------------------------------------------------------------------------------------
+The CustomerName.java file is an example of setting values of the variables using <constructor-arg>
+method.
