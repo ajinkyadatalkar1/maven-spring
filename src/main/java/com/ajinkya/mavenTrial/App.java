@@ -2,6 +2,8 @@ package com.ajinkya.mavenTrial;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+
 /**
  * Hello world!
  *
@@ -14,5 +16,8 @@ public class App
     	salad obj = (salad)context.getBean("vegetableSalad");
     	obj.chop();
     	obj.mix();
+    	
+    	Sauce obj2 = (Sauce) context.getBean("sauce");
+    	System.out.println(obj2);
     }
 }
