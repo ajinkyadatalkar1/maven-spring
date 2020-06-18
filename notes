@@ -27,3 +27,5 @@ letter. Like "VegetableSalad" used in this example.
 --------------------------------------------------------------------------------------------------------
 While calling a bean always remember to make the first letter of component class (even if its capital)
 small.
+--------------------------------------------------------------------------------------------------------
+The Sauce.java file is an example of setting values to the variables with the help of beans.
