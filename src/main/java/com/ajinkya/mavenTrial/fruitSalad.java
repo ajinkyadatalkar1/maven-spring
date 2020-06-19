@@ -3,7 +3,7 @@ package com.ajinkya.mavenTrial;
 import org.springframework.stereotype.Component;
 
 @Component
-public class fruitSalad implements salad {
+public class FruitSalad implements salad {
 	public void chop() {
 		System.out.println("Chop fruits");
 	}

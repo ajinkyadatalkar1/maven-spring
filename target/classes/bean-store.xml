@@ -17,6 +17,10 @@ xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.sprin
    <context:component-scan base-package="com.ajinkya.mavenTrial"></context:component-scan>
    <!-- <bean id="salad" class="com.ajinkya.mavenTrial.fruitSalad"></bean>--> 
 	<bean id="sauce" class="com.ajinkya.mavenTrial.Sauce">
-		<property name="name" value="Chocolate"></property>
+	<property name="name" value="Chocolate"></property>
+	</bean>
+	
+	<bean id="customerName" class="com.ajinkya.mavenTrial.CustomerName">
+	<constructor-arg value="Ajinkya"></constructor-arg>
 	</bean>
 </beans>
