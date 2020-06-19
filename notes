@@ -37,3 +37,7 @@ method.
 The OrderNum.java java and AppConfig.java files gives example on how to add beans without the need of
 creating a XML files. We make use of AnnotationConfigApplicationContext() function and @Bean annotation
 in order load objects inside beans without the use of XML file.
+--------------------------------------------------------------------------------------------------------
+Beans can also be called using AutoWired annotation. Calling beans using @AutoWired annotation isn't
+explained here. Please view the last 7 mins of this tutorials for autowired:
+https://www.youtube.com/watch?v=If1Lw4pLLEo&t=4305s

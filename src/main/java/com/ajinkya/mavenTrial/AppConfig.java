@@ -9,5 +9,5 @@ public class AppConfig {
 	@Bean
 	public OrderNum no() {
 		return new OrderNum();
-	}
+ 	 }
 }

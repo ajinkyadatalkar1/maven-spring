@@ -1,7 +1,5 @@
 package com.ajinkya.mavenTrial;
 
-import org.springframework.stereotype.Component;
-
 public class OrderNum {
 	private int onum=3;
 
