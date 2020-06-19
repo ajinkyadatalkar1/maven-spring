@@ -33,3 +33,7 @@ property.
 --------------------------------------------------------------------------------------------------------
 The CustomerName.java file is an example of setting values of the variables using <constructor-arg>
 method.
+--------------------------------------------------------------------------------------------------------
+The OrderNum.java java and AppConfig.java files gives example on how to add beans without the need of
+creating a XML files. We make use of AnnotationConfigApplicationContext() function and @Bean annotation
+in order load objects inside beans without the use of XML file.
